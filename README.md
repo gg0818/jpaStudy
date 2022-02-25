@@ -10,7 +10,7 @@
 <a href="https://www.inflearn.com/course/ORM-JPA-Basic/dashboard" target="_blank">자바 ORM 표준 JPA 프로그래밍 - 기본편</a>
   </p>
 <br>
-[ jpashop ]
+<p>[ jpashop ]</p>
 <p style="margin:0; padding:0">
 <a href="https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard" target="_blank">실전! 스프링 부트와 JPA 활용1 - 웹 애플리케이션 개발</a>
  </p>

@@ -10,7 +10,7 @@ import java.util.List;
 @Entity
 @Getter @Setter
 public class Member {
-    @Id @GeneratedValue //ㅅㅣ퀀스값?
+    @Id @GeneratedValue
     @Column(name="member_id")
     private Long id;
 
@@ -19,6 +19,7 @@ public class Member {
     @Embedded //내장 타입이다..
     private Address address;
 
+    //양방향 의존은 최대한 사용X,,
     @OneToMany(mappedBy = "member") //멤버의 기준으로 오더는 여러개 있을 수 있으므로 1:N => 양방향 의존, 최대한 바꾸지 않을것!!!
     private List<Order> orders = new ArrayList<>();
 
